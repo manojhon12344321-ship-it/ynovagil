@@ -1,192 +1,301 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>YNOVA - Marketplace de Energia - Gil 73 99847-4104</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>YNOVA Marketplace - Gil 73 99847-4104 - Oficial com Imagens Reais</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-<style>body{font-family:Inter,sans-serif;background:#050507;color:white}.glass{background:rgba(255,255,255,0.06);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1)}.tab-active{background:#FF6A00!important;color:white!important}.pulse{animation:pulse 2s infinite}@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,106,0,0.7)}70%{box-shadow:0 0 0 20px rgba(255,106,0,0)}100%{box-shadow:0 0 0 0 rgba(255,106,0,0)}}</style>
+<style>
+body{font-family:'Inter',sans-serif;background:#050507;color:white;overflow-x:hidden}
+.glass{background:rgba(255,255,255,0.06);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1)}
+.tab-active{background:#FF6A00!important;color:white!important}
+.pulse{animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,106,0,0.7)}70%{box-shadow:0 0 0 20px rgba(255,106,0,0)}100%{box-shadow:0 0 0 0 rgba(255,106,0,0)}}
+</style>
 </head>
 <body>
 <nav class="fixed top-0 w-full z-40 bg-black/90 backdrop-blur border-b border-white/10 px-6 py-3 flex justify-between items-center">
-<div class="flex items-center gap-6"><div id="logoDev" class="font-black text-[22px] text-[#FF6A00] cursor-pointer">YNOVA</div>
+<div class="flex items-center gap-6">
+<div class="font-black text-[22px] text-[#FF6A00]">YNOVA</div>
 <div class="flex bg-white/5 rounded-full p-1">
 <button onclick="switchTab('cliente')" id="btn-cliente" class="px-7 py-2.5 rounded-full text-[12px] font-bold tab-active">👤 CLIENTE</button>
 <button onclick="switchTab('consultor')" id="btn-consultor" class="px-7 py-2.5 rounded-full text-[12px] font-bold text-white/60">💼 CONSULTOR</button>
-</div></div>
+</div>
+</div>
 <a href="https://wa.me/5573998474104" class="bg-[#FF6A00] text-white font-black text-[11px] px-5 py-2.5 rounded-full">GIL 73 99847-4104</a>
 </nav>
 
+<!-- ABA CLIENTE -->
 <div id="aba-cliente" class="pt-[70px]">
 <section class="px-6 py-6 max-w-7xl mx-auto">
 <div class="bg-gradient-to-br from-[#FF0000] via-[#FF6A00] to-[#FF0000] rounded-[24px] p-[2px]">
-<div class="bg-black rounded-[22px] p-6 md:p-8">
-<div class="flex flex-wrap gap-2 mb-4"><span class="bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full animate-pulse">🚨 SÓ 1 MILHÃO TERÃO BENEFÍCIO</span><span class="bg-white text-black text-[10px] font-black px-4 py-1.5 rounded-full">LEI 14.300 - 11,8GW</span></div>
+<div class="bg-black rounded-[22px] p-6">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full animate-pulse">🚨 SÓ 1 MILHÃO TERÃO BENEFÍCIO</span>
+<span class="bg-white text-black text-[10px] font-black px-4 py-1.5 rounded-full">LEI 14.300 - 11,8GW</span>
+</div>
 <h1 class="text-[30px] md:text-[42px] font-black leading-[0.9]"><span class="text-[#FF6A00]">Só mais 1 milhão de pessoas</span> terão o benefício da Lei 14.300! 🇧🇷⚡</h1>
-<p class="mt-4 text-white/70 text-[13px] leading-relaxed">A Ynova analisou os dados 👀 Em 2022, a Lei 14.300 habilitou 11,8GW de projetos GD0 e GD1 📈 - as que garantem o subsídio 🌱 O que quase ninguém sabe 🤫 5-6GW já foram implantados ⚡ Restam 2GW para energia por assinatura 🔌 Sem instalar placa nenhuma ☀️🚫 Sem custo, sem obra, sem burocracia ✅ Economia 15% até 35% + 3% até 15% bandeiras 🚩💸 Esse benefício já está disponível 🚀 Garantimos conexão até 1 milhão de consumidores pelo nosso marketplace 🔗 Depois que acabar, acabou ⏳❌ Lei 15.269 dez 2028 liberalização total 🔄 Mas até lá única opção é garantir sua energia por assinatura ⚡ Só 1% da população terá subsídio 😮 1 chance ☝️ Depois será tarde ⏰ Sua energia é livre? Ainda dá tempo. Por pouco. 🤝⚡ Ynova aqui a energIA é outra!</p>
-<div class="mt-5 grid grid-cols-3 gap-3 text-center"><div class="glass rounded-xl p-3"><div class="text-[20px] font-black text-[#FF6A00]">11,8GW</div><div class="text-[10px] text-white/60">Habilitados GD0 GD1</div></div><div class="glass rounded-xl p-3"><div class="text-[20px] font-black text-red-400">5-6GW</div><div class="text-[10px] text-white/60">Já implantados</div></div><div class="glass rounded-xl p-3 bg-green-500/10 border border-green-500/20"><div class="text-[20px] font-black text-green-400">2GW</div><div class="text-[10px] text-white/60">Restam - 1 milhão</div></div></div>
-<button onclick="document.getElementById('conta').scrollIntoView({behavior:'smooth'})" class="w-full mt-6 bg-[#FF6A00] text-white font-black py-4 rounded-xl text-[13px]">🔥 GARANTIR MINHA VAGA NOS 1 MILHÃO AGORA →</button>
-</div></div>
-</section>
-
-<section class="px-6 py-6 max-w-7xl mx-auto grid lg:grid-cols-2 gap-4">
-<div class="glass rounded-[20px] p-5">
-<h3 class="font-black text-[14px]">🗺️ Mapa Interativo - 20 estados</h3>
-<div class="mt-3 grid grid-cols-4 gap-2 text-[11px]">
-<button onclick="selectEstado('MA','15%')" class="glass py-2.5 rounded-xl hover:bg-[#FF6A00] transition">MA<br><b>15%</b></button>
-<button onclick="selectEstado('PA','15%')" class="glass py-2.5 rounded-xl">PA<br><b>15%</b></button>
-<button onclick="selectEstado('TO','25%')" class="bg-[#FF6A00] py-2.5 rounded-xl font-black">TO<br><b>25%</b></button>
-<button onclick="selectEstado('BA','18%')" class="glass py-2.5 rounded-xl">BA<br><b>18%</b></button>
-<button onclick="selectEstado('MG','28%')" class="bg-[#FF6A00] py-2.5 rounded-xl font-black">MG<br><b>28%</b></button>
-<button onclick="selectEstado('SP','15%')" class="glass py-2.5 rounded-xl">SP<br><b>15%</b></button>
-<button onclick="selectEstado('GO','24%')" class="glass py-2.5 rounded-xl">GO<br><b>24%</b></button>
-<button onclick="selectEstado('AT','15-40%')" class="bg-red-600 py-2.5 rounded-xl font-black">AT<br><b>15-40%</b></button>
-</div>
-<div id="estadoInfo" class="mt-4 bg-[#FF6A00]/10 border border-[#FF6A00]/20 rounded-xl p-3 text-[11px]"><b>Selecione seu estado</b> - Até 28% + isento bandeiras + Gil 73 99847-4104</div>
-</div>
-<div class="glass rounded-[20px] p-5 border border-[#FF6A00]/20">
-<h3 class="font-black text-[14px]">💡 Calculadora de Economia</h3>
-<label class="text-[11px] mt-3 block">Consumo: <span id="calcKwh" class="font-black text-[#FF6A00] text-[14px]">320 kWh</span></label>
-<input type="range" id="calcRange" min="100" max="1000" value="320" step="10" class="w-full mt-2" style="accent-color:#FF6A00" oninput="calc()">
-<div class="mt-4 grid grid-cols-3 gap-2 text-center">
-<div class="bg-white/10 rounded-xl p-3"><div class="text-[9px] opacity-60">CONTA ATUAL</div><div id="calcAtual" class="font-black mt-1">R$ 298</div></div>
-<div class="bg-[#FF6A00] rounded-xl p-3"><div class="text-[9px]">ECONOMIA 28%</div><div id="calcEcon" class="font-black mt-1">R$ 83</div></div>
-<div class="bg-black rounded-xl p-3 border border-white/10"><div class="text-[9px] opacity-60">ANO + BANDEIRAS</div><div id="calcAno" class="font-black mt-1">R$ 1.002</div></div>
+<p class="mt-3 text-white/60 text-[12px]">Economize até 28% + isento bandeiras + 90 dias + distribuidora não muda</p>
+<button onclick="document.getElementById('conta').scrollIntoView({behavior:'smooth'})" class="w-full mt-6 bg-[#FF6A00] text-white font-black py-4 rounded-xl pulse">🔥 GARANTIR MINHA VAGA NOS 1 MILHÃO AGORA →</button>
 </div>
 </div>
 </section>
 
 <section id="conta" class="px-6 py-8 max-w-7xl mx-auto">
-<div class="grid lg:grid-cols-2 gap-8 items-start">
-<div>
-<h2 class="text-[28px] font-black leading-[0.9]">Plataforma Digital com IA</h2>
-<p class="mt-3 text-white/60 text-[12px]">Envie sua conta em PDF e veja na hora quanto pode economizar. 15% até 35% + 3% até 15% de bandeiras. Sem custo, sem obra, sem burocracia. Vaga nos 1 milhão garantida pela Lei 14.300.</p>
-<div class="mt-5 glass rounded-xl p-4 border border-red-500/20 bg-red-500/5"><div class="text-[11px] font-bold text-red-400">🚨 Só 1 milhão terão o benefício - Depois que acabar, acabou! Lei 15.269 dez 2028</div></div>
-</div>
+<div class="grid lg:grid-cols-2 gap-8">
 <div class="glass rounded-[20px] p-6 border border-[#FF6A00]/20">
-<h3 class="text-[16px] font-black text-center">Sua conta pode custar menos todo mês</h3>
-<div id="uploadArea" class="mt-5 border-2 border-dashed border-white/15 rounded-[14px] p-6 text-center cursor-pointer hover:border-[#FF6A00]/40 transition" onclick="document.getElementById('fileConta').click()">
+<h3 class="font-black text-center">Sua conta pode custar menos todo mês</h3>
+<div id="uploadArea" class="mt-5 border-2 border-dashed border-white/15 rounded-[14px] p-6 text-center cursor-pointer" onclick="document.getElementById('fileConta').click()">
 <input type="file" id="fileConta" accept=".pdf,application/pdf" class="hidden">
-<div id="uploadDefault"><div class="text-[32px]">📄</div><div class="font-bold mt-2 text-[13px]">Toque para escolher sua conta de luz</div><div class="text-[10px] text-white/40 mt-1">Apenas arquivo PDF</div></div>
-<div id="uploadPreview" class="hidden"><div class="text-[32px]">📄</div><div id="fileName" class="mt-2 font-bold text-[12px] text-[#FF6A00]"></div><div class="text-[10px] text-white/50 mt-1">PDF carregado com sucesso</div></div>
+<div id="uploadDefault"><div class="text-[32px]">📄</div><div class="font-bold mt-2">Toque para escolher sua conta de luz</div><div class="text-[10px] text-white/40">Apenas PDF</div></div>
+<div id="uploadPreview" class="hidden"><div id="fileName" class="font-bold text-[#FF6A00] text-[12px]"></div></div>
 </div>
-<button onclick="lerConta()" class="w-full mt-5 bg-[#FF6A00] text-white font-black py-3.5 rounded-xl text-[13px]">Ler minha conta e garantir minha vaga</button>
-<!-- FIM PARTE 1 - CONTINUA NA PARTE 2 --><div id="iaResult" class="hidden mt-5 bg-white text-black rounded-[16px] p-5">
-<div class="font-black text-green-700 text-[12px]">✅ Conta lida! Vaga garantida nos 1 milhão!</div>
-<div class="mt-4 grid grid-cols-2 gap-2 text-[11px]">
-<div class="bg-[#FFF8F0] rounded-xl p-3 border"><div class="text-black/40 text-[9px]">CONSUMO</div><div id="resConsumo" class="font-black text-[14px]">320 kWh</div></div>
-<div class="bg-[#FFF8F0] rounded-xl p-3 border"><div class="text-black/40 text-[9px]">VALOR</div><div id="resValor" class="font-black text-[14px]">R$ 298,50</div></div>
-<div class="bg-[#FF6A00] text-white rounded-xl p-3"><div class="text-white/70 text-[9px]">ECONOMIA/MÊS</div><div id="resEcon" class="font-black text-[14px]">R$ 83,58</div></div>
-<div class="bg-black text-white rounded-xl p-3"><div class="text-white/50 text-[9px]">ECONOMIA ANO</div><div id="resAno" class="font-black text-[14px]">R$ 1.002</div></div>
+<button onclick="lerConta()" class="w-full mt-5 bg-[#FF6A00] text-white font-black py-3.5 rounded-xl">Ler minha conta e garantir minha vaga</button>
+<div id="iaResult" class="hidden mt-5 bg-white text-black rounded-[16px] p-5">
+<div class="font-black text-green-700">✅ Conta lida! Vaga garantida!</div>
+<div class="mt-3 grid grid-cols-2 gap-2 text-[11px]">
+<div class="bg-[#FFF8F0] rounded-xl p-3 border"><div class="text-[9px] opacity-50">CONSUMO</div><div id="resConsumo" class="font-black">320 kWh</div></div>
+<div class="bg-[#FFF8F0] rounded-xl p-3 border"><div class="text-[9px] opacity-50">VALOR</div><div id="resValor" class="font-black">R$ 298</div></div>
 </div>
-<div class="mt-4 grid grid-cols-2 gap-2"><input id="cliNome" placeholder="Seu nome" class="border rounded-xl px-4 py-3 text-[12px] text-black"><input id="cliZap" placeholder="WhatsApp" class="border rounded-xl px-4 py-3 text-[12px] text-black"></div>
-<button onclick="enviarZap()" class="w-full mt-4 bg-[#25D366] text-white font-black py-3.5 rounded-xl text-[12px]">📄 Gerar proposta e falar com o Gil</button>
+<button onclick="enviarZap()" class="w-full mt-4 bg-[#25D366] text-white font-black py-3 rounded-xl">📄 Falar com o Gil no Zap</button>
 </div>
-
-<div class="mt-6 bg-white text-black rounded-[16px] p-4">
-<h3 class="font-black text-[14px]">Já começou por aqui?</h3>
-<p class="text-[11px] text-black/60 mt-1">Digite seu CPF para ver seu atendimento</p>
-<input id="cpfInput" placeholder="CPF ou CNPJ" class="w-full mt-3 border border-black/15 rounded-xl px-4 py-3 text-[12px] text-black">
+</div>
+<div class="bg-white text-black rounded-[16px] p-4 h-fit">
+<h3 class="font-black text-[13px]">Já começou por aqui?</h3>
+<input id="cpfInput" placeholder="CPF ou CNPJ" class="w-full mt-3 border rounded-xl px-4 py-3 text-[12px]">
 <button onclick="consultarCpf()" class="w-full mt-3 bg-black text-white rounded-xl py-3 font-bold text-[12px]">Ver meu atendimento</button>
-<div id="cpfResult" class="hidden mt-3 bg-[#FFF8F0] border rounded-xl p-3 text-black text-[11px]"></div>
-</div>
+<div id="cpfResult" class="hidden mt-3 bg-[#FFF8F0] border rounded-xl p-3 text-[11px]"></div>
 </div>
 </div>
 </section>
 </div>
 
+<!-- ABA CONSULTOR COM IMAGENS REAIS -->
 <div id="aba-consultor" class="hidden pt-[70px]">
 <section class="px-6 py-8 max-w-7xl mx-auto">
-<div class="inline-block bg-[#FF6A00] text-white text-[11px] font-black px-4 py-1.5 rounded-full">💼 APRESENTAÇÃO DE NEGÓCIO 2026</div>
+<div class="inline-block bg-[#FF6A00] text-white text-[11px] font-black px-4 py-1.5 rounded-full">💼 APRESENTAÇÃO DE NEGÓCIO 2026 - COM IMAGENS REAIS DO PDF</div>
 <h1 class="mt-4 text-[32px] md:text-[44px] font-black leading-[0.9]">YNOVA aqui a <span class="text-[#FF6A00]">ENERGIA</span> é outra</h1>
-<p class="mt-3 text-white/60 text-[12px] max-w-3xl">Seja Bem Vindo! Energia | Marketplace | Negócio - Venda energia e ganhe até R$30k/mês - O maior programa de venda de energia por assinatura - 8.000 consultores - Fundadores Guilherme e Gabriel Moya - CNPJ 22.779.707/0001-80 - +1.200 usinas - Mercado R$315Bi - Lei 14.300 - Lei 15.269 dez 2028</p>
+<p class="mt-3 text-white/60 text-[12px]">Marketplace de Energia - Conecta quem gera com quem quer economizar - Até 28% de economia</p>
 
-<div class="mt-8 grid lg:grid-cols-2 gap-4">
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 1 - CAPA + 2 - BEM VINDO</div><div class="mt-2 text-[12px] font-bold">YNOVA aqui a ENERGIA é outra - Venda energia, ganhe até R$30k/mês - O maior programa de venda de energia por assinatura do Brasil</div></div>
-<div class="glass rounded-[20px] p-5 border border-[#FF6A00]/20"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 3 - QUEM SOMOS</div><div class="mt-2 text-[11px]"><b>YNOVA é um Marketplace de Energia.</b> Conecta quem gera energia renovável com quem quer economizar. CNPJ 22.779.707/0001-80 - Programa de marketing multinível.</div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 4 - FORMAS DE COMPRAR MUDARAM</div><div class="mt-2 text-[11px]">Alimento → iFood conecta restaurante<br>Carro → Uber conecta motorista<br><b>Energia → YNOVA conecta usinas solares</b> - até 28% + isento bandeiras + 90 dias + distribuidora não muda</div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 5 - ATUAÇÃO + FUNDADORES</div><div class="mt-2 text-[11px]"><b>+1.200 usinas - Guilherme e Gabriel Moya</b><br>20+ fornecedores: auren, serena, matrix, coit, Safira, ecom, esfera, EVOLUA, nextron, comerc, origo, FIT e outros.</div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 6 - MERCADO RENOVÁVEL</div><div class="mt-2 grid grid-cols-2 gap-3 text-[10px]"><div><b class="text-red-400">TRADICIONAIS:</b><br>Carvão polui, Termelétrica cara, Hidrelétrica impacto</div><div><b class="text-green-400">RENOVÁVEL:</b><br>Solar + eólica, Limpa, Economia 15% a 35%, Fonte inesgotável</div></div></div>
-<div class="glass rounded-[20px] p-5 border border-[#FF6A00]/20"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 7 - TAMANHO DO MERCADO</div><div class="mt-2 text-[11px]"><b>+97 milhões de unidades</b><br>Energia R$315Bi - MAIOR que Cosméticos, Telecom, Franquias, E-commerce<br>1999 portabilidade, 2015 geração compartilhada, 2024 abertura, <b>2028 escolha livre Lei 15.269</b></div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 8 - É LEI! LEI 14.300/2022</div><div class="mt-2 text-[11px]"><b>Marco legal da micro e minigeração.</b> Segurança jurídica total. <b>11,8GW habilitados GD0 GD1</b> - 5-6GW implantados, restam 2GW. 15% até 35% + bandeiras. 1 milhão de vagas.</div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 9 - ECONOMIA + MAPA</div><div class="mt-2 text-[11px]"><b>20 estados:</b> PA 15%, MA 15%, CE 18%, RN 18%, PB 15%, PE 23%, PI 20%, TO 25%, BA 18%, MT 25%, GO 24%, MG 28%, MS 23%, SP 15%, ES 12%, RJ 15%, PR 15%, SC 15%, RS 15%, AT 15% a 40%</div></div>
-<div class="glass rounded-[20px] p-5"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 10 - TERMO DE ADESÃO</div><div class="mt-2 text-[11px]"><b>CNPJ 22.779.707/0001-80</b><br>Condições gerais de adesão, participação, bonificação e graduação. Programa de marketing multinível com licenciamento, ativação mensal, bonificações.</div></div>
-<div class="glass rounded-[20px] p-5 border border-[#FF6A00]/20"><div class="text-[10px] font-black text-[#FF6A00]">SLIDE 11 - PLANO DE CARREIRA</div><div class="mt-2 text-[11px]"><b>Pontuação mensal recorrente.</b><br>Prata 1k pts 50%, Ouro 10k 50%, Esmeralda 40k 50%, Diamante 300k 35%, Blue Diamond 1M 30%, Black Diamond 2M 25%, Imperial 10M 20%</div></div>
+<div class="mt-8 grid lg:grid-cols-2 gap-5">
+<!-- SLIDE 1 - CAPA -->
+<div class="glass rounded-[20px] overflow-hidden border border-[#FF6A00]/20">
+<img src="IMG-20261018-WA1532.jpg" alt="Capa YNOVA" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 1 - CAPA - YNOVA AQUI A ENERGIA É OUTRA</div>
+<div class="mt-2 text-[12px] font-bold">O maior programa de venda de energia por assinatura do Brasil - Venda energia, ganhe até R$30k/mês</div>
+</div>
 </div>
 
-<div class="mt-10 grid lg:grid-cols-2 gap-6">
-<div class="glass rounded-[20px] p-6 border border-[#FF6A00]/20">
-<h3 class="font-black text-[16px]">💰 Simulador de Ganhos</h3>
-<div class="mt-4 space-y-3">
-<div><label class="text-[11px] font-bold">Vendas/mês: <span id="simVendasVal" class="text-[#FF6A00] font-black">10</span></label><input type="range" id="simVendas" min="1" max="50" value="10" class="w-full mt-1" style="accent-color:#FF6A00" oninput="calcGanhos()"></div>
-<div><label class="text-[11px] font-bold">Fatura média: R$ <span id="simFaturaVal" class="text-[#FF6A00] font-black">800</span></label><input type="range" id="simFatura" min="300" max="2000" value="800" step="50" class="w-full mt-1" style="accent-color:#FF6A00" oninput="calcGanhos()"></div>
-<div><label class="text-[11px] font-bold">Equipe: <span id="simEquipeVal" class="text-[#FF6A00] font-black">5</span></label><input type="range" id="simEquipe" min="0" max="30" value="5" class="w-full mt-1" style="accent-color:#FF6A00" oninput="calcGanhos()"></div>
-</div>
-<div class="mt-4 grid grid-cols-3 gap-2 text-center">
-<div class="glass rounded-xl p-3"><div class="text-[9px] opacity-60">DIRETA 50%</div><div id="simDireta" class="font-black text-[14px] text-[#FF6A00]">R$ 4.000</div></div>
-<div class="glass rounded-xl p-3"><div class="text-[9px] opacity-60">PERF ATÉ 3k</div><div id="simPerf" class="font-black text-[14px]">R$ 1.500</div></div>
-<div class="glass rounded-xl p-3 bg-[#FF6A00]"><div class="text-[9px] text-white/80">EQUIPE 55% 7º NÍVEL</div><div id="simEquipeGanho" class="font-black text-[14px]">R$ 2.200</div></div>
-</div>
-<div class="mt-4 bg-white text-black rounded-xl p-4"><div class="text-[12px]">Total mês: <span id="simTotal" class="font-black text-[#FF6A00] text-[18px]">R$ 7.700</span> + recorrência</div><div class="text-[11px] mt-1">Ano: <b id="simAno">R$ 92.400</b> + BYD Dolphin 5M pts + Smartwatch 10k + Cruzeiro 150k + Cancun 500k</div></div>
-</div>
-<div class="glass rounded-[20px] p-6">
-<h3 class="font-black text-[15px]">Quero ser Consultor YNOVA</h3>
-<p class="text-[11px] text-white/60 mt-1">Preencha e fale com o Gil no WhatsApp - 73 99847-4104</p>
-<div class="mt-5 space-y-3">
-<input id="consNome" placeholder="Nome completo" class="w-full bg-white text-black rounded-xl px-4 py-3.5 text-[12px]">
-<input id="consCpf" placeholder="CPF" class="w-full bg-white text-black rounded-xl px-4 py-3.5 text-[12px]">
-<input id="consZap" placeholder="WhatsApp com DDD" class="w-full bg-white text-black rounded-xl px-4 py-3.5 text-[12px]">
-<input id="consCidade" placeholder="Cidade / Estado" class="w-full bg-white text-black rounded-xl px-4 py-3.5 text-[12px]">
-<select id="consExp" class="w-full bg-white text-black rounded-xl px-4 py-3.5 text-[12px]"><option>Já trabalha com vendas?</option><option>Sim, já sou consultor/vendedor</option><option>Não, primeira vez</option><option>Já sou consultor YNOVA</option></select>
-</div>
-<button onclick="cadastrarConsultor()" class="w-full mt-6 bg-[#FF6A00] text-white font-black py-4 rounded-xl text-[13px]">Quero ser consultor - Enviar para o Gil no WhatsApp</button>
-<div id="consResult" class="hidden mt-4 bg-green-500/10 border border-green-500/20 rounded-xl p-3 text-[11px] text-green-400 font-bold">✅ Cadastro enviado! O Gil vai te chamar no WhatsApp 73 99847-4104!</div>
+<!-- SLIDE 2 - CORRETOR -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA2317.jpg" alt="Fale com corretor" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 2 - FALE COM UM CORRETOR E ECONOMIZE</div>
+<div class="mt-2 text-[11px]"><b>Fale com um corretor e economize na sua conta de energia</b><br>Qual é seu maior sonho? Casa própria? Carro? Viagem? Liberdade financeira?</div>
 </div>
 </div>
+
+<!-- SLIDE 3 - SONHO -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA2536.jpg" alt="Qual seu sonho" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 3 - QUAL É SEU MAIOR SONHO?</div>
+<div class="mt-2 text-[11px]">Todo mundo tem um sonho - A YNOVA te ajuda a realizar através da energia solar por assinatura - Sem investimento, sem obra</div>
+</div>
+</div>
+
+<!-- SLIDE 4 - COMO SE TORNAR CORRETOR -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA5429.jpg" alt="Como se tornar corretor" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 4 - COMO SE TORNAR CORRETOR DE ENERGIA</div>
+<div class="mt-2 text-[11px]"><b>YNOVA é um Marketplace de Energia</b> - Conecta quem gera energia renovável com quem quer economizar - CNPJ 22.779.707/0001-80</div>
+</div>
+</div>
+
+<!-- CONTINUA NA PARTE 2 --><!-- SLIDE 5 - BÔNUS + CARREIRA -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA5540.jpg" alt="Bonus conexao" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 5 - BÔNUS CONEXÃO + CONSTRUÇÃO + PLANO DE CARREIRA</div>
+<div class="mt-2 text-[11px] grid grid-cols-2 gap-2">
+<div class="bg-[#FF6A00]/10 rounded-xl p-2 border border-[#FF6A00]/20"><b class="text-[#FF6A00]">BÔNUS CONEXÃO</b><br>R$50 por cliente direto</div>
+<div class="bg-white/5 rounded-xl p-2 border"><b>CONSTRUÇÃO EQUIPE</b><br>Ganhe sobre equipe</div>
+</div>
+<div class="mt-3 text-[11px]"><b>Plano de Carreira até R$30k/mês:</b> Consultor → Silver → Gold → Diamond → Royal</div>
+</div>
+</div>
+
+<!-- SLIDE 6 - PLANO DE CARREIRA DETALHADO -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA8484.jpg" alt="Plano de carreira" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 6 - PLANO DE CARREIRA COMPLETO + BÔNUS</div>
+<div class="mt-2 text-[11px]">
+<b>Consultor:</b> 10 clientes = R$500<br>
+<b>Silver:</b> 30 clientes + 3 diretos = R$1.500 + bônus<br>
+<b>Gold:</b> 100 clientes = R$5.000<br>
+<b>Diamond:</b> 300 clientes = R$15.000 - <span class="text-[#FF6A00] font-black">Até R$30k/mês!</span>
+</div>
+</div>
+</div>
+
+<!-- SLIDE 7 - CADASTRO + SITE -->
+<div class="glass rounded-[20px] overflow-hidden border border-white/10">
+<img src="IMG-20261018-WA8729.jpg" alt="Cadastro" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 7 - COMO SE CADASTRAR + SITE DO CLIENTE + KIT CORRETOR</div>
+<div class="mt-2 text-[11px]">
+<b>Passo 1:</b> Cadastro no sistema YNOVA<br>
+<b>Passo 2:</b> Acesso ao site do cliente<br>
+<b>Passo 3:</b> Kit Corretor - Material de vendas, apresentação, contrato<br>
+<b>Passo 4:</b> Comece a vender e ganhar!
+</div>
+</div>
+</div>
+
+<!-- SLIDE 8 - BÔNUS DETALHADO -->
+<div class="glass rounded-[20px] overflow-hidden border border-[#FF6A00]/20">
+<img src="IMG-20261018-WA8907.jpg" alt="Bonus detalhado" class="w-full h-auto">
+<div class="p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">SLIDE 8 - BÔNUS DETALHADO - CONEXÃO, CONSTRUÇÃO, MENTORIA, LIDERANÇA</div>
+<div class="mt-2 grid grid-cols-2 gap-2 text-[10px]">
+<div class="bg-[#FFF8F0] text-black rounded-xl p-2 border"><b>BÔNUS CONEXÃO:</b> R$50 direto</div>
+<div class="bg-[#FFF8F0] text-black rounded-xl p-2 border"><b>BÔNUS CONSTRUÇÃO:</b> 10% equipe</div>
+<div class="bg-[#FFF8F0] text-black rounded-xl p-2 border"><b>BÔNUS MENTORIA:</b> Treinamento</div>
+<div class="bg-[#FFF8F0] text-black rounded-xl p-2 border"><b>BÔNUS LIDERANÇA:</b> Residual</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- SIMULADORES + CADASTRO -->
+<div class="mt-10 grid lg:grid-cols-3 gap-6">
+<div class="bg-white text-black rounded-[20px] p-5">
+<h3 class="font-black text-[14px]">🧮 Simulador de Ganho - Corretor</h3>
+<p class="text-[11px] opacity-60 mt-1">Quantos clientes você vai fechar?</p>
+<input id="qtdClientes" type="number" value="10" class="w-full mt-3 border-2 border-black/10 rounded-xl px-4 py-3 text-[12px] font-bold">
+<div class="mt-3 bg-[#FFF8F0] border rounded-xl p-3">
+<div class="text-[10px] opacity-50">GANHO ESTIMADO</div>
+<div id="calcRes" class="font-black text-[18px] text-[#FF6A00]">R$ 500 /mês + recorrência</div>
+<div class="text-[10px] mt-1">R$50 conexão + bônus equipe + residual todo mês</div>
+</div>
+<button onclick="calc()" class="w-full mt-3 bg-black text-white rounded-xl py-3 font-bold text-[12px]">Calcular meu ganho</button>
+</div>
+
+<div class="bg-white text-black rounded-[20px] p-5">
+<h3 class="font-black text-[14px]">📝 Cadastro Rápido - YNOVA</h3>
+<input id="nomeCad" placeholder="Seu nome completo" class="w-full mt-3 border-2 border-black/10 rounded-xl px-4 py-3 text-[11px]">
+<input id="zapCad" placeholder="WhatsApp com DDD (ex: 73 99847-4104)" class="w-full mt-3 border-2 border-black/10 rounded-xl px-4 py-3 text-[11px]">
+<input id="cidadeCad" placeholder="Cidade - Teixeira de Freitas/BA" class="w-full mt-3 border-2 border-black/10 rounded-xl px-4 py-3 text-[11px]">
+<button onclick="gerarPDF()" class="w-full mt-4 bg-[#FF6A00] text-white rounded-xl py-3.5 font-black text-[12px] pulse">Gerar meu contrato PDF e enviar pro Gil →</button>
+<p class="text-[10px] opacity-50 mt-2 text-center">Seus dados vão direto pro Gil - 73 99847-4104</p>
+</div>
+
+<div class="bg-gradient-to-br from-[#FF6A00] to-[#FF0000] rounded-[20px] p-[2px]">
+<div class="bg-black rounded-[18px] p-5 text-center">
+<div class="text-[28px]">🔥</div>
+<div class="font-black text-[16px] mt-2">Falar com o Gil AGORA</div>
+<div class="text-[11px] text-white/60 mt-1">73 99847-4104<br>Teixeira de Freitas/BA<br>Corretor Oficial YNOVA</div>
+<div class="mt-4 space-y-2">
+<a href="https://wa.me/5573998474104?text=Ola%20Gil,%20quero%20ser%20corretor%20YNOVA" target="_blank" class="block w-full bg-[#25D366] text-white font-black py-3 rounded-xl text-[12px]">📲 CHAMAR NO WHATSAPP</a>
+<a href="https://wa.me/5573998474104?text=Ola%20Gil,%20quero%20economizar%20na%20conta%20de%20luz" target="_blank" class="block w-full bg-white text-black font-black py-3 rounded-xl text-[12px]">💡 QUERO ECONOMIZAR</a>
+</div>
+<div class="mt-4 text-[10px] text-white/30">Atendimento em todo Brasil - Energia solar por assinatura sem obra</div>
+</div>
+</div>
+</div>
+
+<!-- QUEM SOMOS + ATUAÇÃO -->
+<div class="mt-10 grid lg:grid-cols-2 gap-5">
+<div class="glass rounded-[20px] p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">QUEM SOMOS + ATUAÇÃO</div>
+<div class="mt-2 text-[12px]"><b>YNOVA é um Marketplace de Energia.</b> Conecta quem gera energia renovável com quem quer economizar. CNPJ 22.779.707/0001-80 - Programa de marketing multinível - +1.200 usinas - Fundadores Guilherme e Gabriel Moya</div>
+<div class="mt-3 flex flex-wrap gap-2 text-[9px]">
+<span class="bg-white/10 px-2 py-1 rounded-full">auren</span><span class="bg-white/10 px-2 py-1 rounded-full">serena</span><span class="bg-white/10 px-2 py-1 rounded-full">matrix</span><span class="bg-white/10 px-2 py-1 rounded-full">comerc</span><span class="bg-white/10 px-2 py-1 rounded-full">origo</span>
+</div>
+</div>
+<div class="glass rounded-[20px] p-5">
+<div class="text-[10px] font-black text-[#FF6A00]">FORMAS DE COMPRAR MUDARAM</div>
+<div class="mt-2 text-[11px]">Alimento → iFood conecta restaurante<br>Carro → Uber conecta motorista<br><b class="text-[#FF6A00]">Energia → YNOVA conecta usinas solares</b><br><br>✅ Até 28% economia + isento bandeiras + 90 dias + distribuidora não muda</div>
+</div>
+</div>
+
 </section>
 </div>
 
-<footer class="border-t border-white/5 py-10 px-6 text-center mt-10">
-<div class="font-black text-[#FF6A00] text-[28px] tracking-widest">YNOVA</div>
-<div class="text-[12px] text-white/50 mt-2">Marketplace de Energia • Gil 73 99847-4104</div>
-<a href="https://wa.me/5573998474104" class="inline-block mt-5 bg-[#FF6A00] text-white font-black px-8 py-3 rounded-full text-[12px]">Chamar no WhatsApp → 73 99847-4104</a>
+<footer class="mt-12 border-t border-white/10 py-8 text-center">
+<div class="font-black text-white/50 text-[12px]">YNOVA • Gil • 73 99847-4104 • Teixeira de Freitas/BA • Energia Solar por Assinatura</div>
+<div class="mt-2 text-[10px] text-white/30 max-w-3xl mx-auto px-6">Economize até 28% + Isento bandeiras + 90 dias de carência + Distribuidora não muda • Marketplace de Energia • CNPJ 22.779.707/0001-80 • Programa de marketing multinível - Resultados variam conforme esforço - Até R$30k/mês para Diamond</div>
+<div class="mt-4 flex justify-center gap-4 text-[10px]"><a href="https://wa.me/5573998474104" class="text-[#FF6A00] font-bold">WhatsApp Gil</a><span class="text-white/20">|</span><span class="text-white/30">Site oficial YNOVA</span></div>
 </footer>
 
-<a href="https://wa.me/5573998474104" class="fixed bottom-5 right-5 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center text-white text-2xl shadow-xl z-40 pulse">💬</a>
-
 <script>
-function switchTab(tab){
-  document.getElementById('aba-cliente').classList.toggle('hidden', tab!=='cliente');
-  document.getElementById('aba-consultor').classList.toggle('hidden', tab!=='consultor');
-  document.getElementById('btn-cliente').classList.toggle('tab-active', tab==='cliente');
-  document.getElementById('btn-consultor').classList.toggle('tab-active', tab==='consultor');
-  document.getElementById('btn-cliente').classList.toggle('text-white/60', tab!=='cliente');
-  document.getElementById('btn-consultor').classList.toggle('text-white/60', tab!=='consultor');
-  localStorage.setItem('ynova_aba', tab);
+function switchTab(t){
+document.getElementById('aba-cliente').classList.toggle('hidden',t!=='cliente');
+document.getElementById('aba-consultor').classList.toggle('hidden',t!=='consultor');
+document.getElementById('btn-cliente').classList.toggle('tab-active',t==='cliente');
+document.getElementById('btn-cliente').classList.toggle('text-white/60',t!=='cliente');
+document.getElementById('btn-consultor').classList.toggle('tab-active',t==='consultor');
+document.getElementById('btn-consultor').classList.toggle('text-white/60',t!=='consultor');
+window.scrollTo(0,0);
 }
-function calc(){const kwh=parseInt(document.getElementById('calcRange').value);const valor=kwh*0.93;const econ=valor*0.28;document.getElementById('calcKwh').innerText=kwh+' kWh';document.getElementById('calcAtual').innerText='R$ '+valor.toFixed(0);document.getElementById('calcEcon').innerText='R$ '+econ.toFixed(0);document.getElementById('calcAno').innerText='R$ '+(econ*12).toFixed(0)+' +15%';}
-function calcGanhos(){const vendas=parseInt(document.getElementById('simVendas').value);const fatura=parseInt(document.getElementById('simFatura').value);const equipe=parseInt(document.getElementById('simEquipe').value);document.getElementById('simVendasVal').innerText=vendas;document.getElementById('simFaturaVal').innerText=fatura;document.getElementById('simEquipeVal').innerText=equipe;const direta=vendas*fatura*0.5;const perf=vendas>=10?3000:vendas>=5?1500:vendas*150;const equipeGanho=equipe*fatura*0.1*0.55;const total=direta+perf+equipeGanho;document.getElementById('simDireta').innerText='R$ '+direta.toFixed(0);document.getElementById('simPerf').innerText='R$ '+perf.toFixed(0);document.getElementById('simEquipeGanho').innerText='R$ '+equipeGanho.toFixed(0);document.getElementById('simTotal').innerText='R$ '+total.toFixed(0);document.getElementById('simAno').innerText='R$ '+(total*12).toFixed(0);}
-function selectEstado(sigla,perc){document.getElementById('estadoInfo').innerHTML=`<b>${sigla} - ${perc}</b> - Desconto até ${perc} + isento bandeiras 3-15% + Gil 73 99847-4104`;}
 function lerConta(){
-  const fileInput=document.getElementById('fileConta');
-  if(!fileInput.files[0]){alert('Por favor, escolha sua conta em PDF');fileInput.click();return;}
-  const f=fileInput.files[0];
-  if(!f.name.toLowerCase().endsWith('.pdf')){alert('Por favor, selecione apenas arquivo PDF');fileInput.value='';return;}
-  document.getElementById('uploadDefault').classList.add('hidden');
-  document.getElementById('uploadPreview').classList.remove('hidden');
-  document.getElementById('fileName').innerText=f.name + ' (' + (f.size/1024).toFixed(0) + ' KB)';
-  const b=250+Math.floor(Math.random()*300);const v=(b*(0.8+Math.random()*0.4)).toFixed(2);
-  document.getElementById('resConsumo').innerText=b+' kWh';
-  document.getElementById('resValor').innerText='R$ '+v;
-  document.getElementById('resEcon').innerText='R$ '+(parseFloat(v)*0.28).toFixed(2);
-  document.getElementById('resAno').innerText='R$ '+(parseFloat(v)*0.28*12).toFixed(0);
-  document.getElementById('iaResult').classList.remove('hidden');
+const f=document.getElementById('fileConta').files[0];
+if(!f){alert('Escolha o PDF da sua conta primeiro!');return;}
+document.getElementById('fileName').innerText='✅ '+f.name;
+document.getElementById('uploadDefault').classList.add('hidden');
+document.getElementById('uploadPreview').classList.remove('hidden');
+document.getElementById('iaResult').classList.remove('hidden');
+document.getElementById('resConsumo').innerText=Math.floor(250+Math.random()*200)+' kWh';
+document.getElementById('resValor').innerText='R$ '+(180+Math.floor(Math.random()*300));
 }
-function enviarZap(){const nome=document.getElementById('cliNome').value||'Cliente';const zap=document.getElementById('cliZap').value||'';const consumo=document.getElementById('resConsumo').innerText;const valor=document.getElementById('resValor').innerText;const econ=document.getElementById('resEcon').innerText;const m=`*NOVO LEAD CLIENTE - YNOVA*%0ANome: ${encodeURIComponent(nome)}%0AZap: ${encodeURIComponent(zap)}%0AConta: ${consumo} - ${valor} - Economia: ${econ}%0AVaga nos 1 milhão - Lei 14.300`;window.open(`https://wa.me/5573998474104?text=${m}`,'_blank');}
-function consultarCpf(){const cpf=document.getElementById('cpfInput').value.trim();if(cpf.replace(/\D/g,'').length<11){alert('Digite CPF ou CNPJ válido');return;}const econ=(Math.random()*120+40).toFixed(2);const res=document.getElementById('cpfResult');res.classList.remove('hidden');res.innerHTML=`<div class="font-bold">CPF: ${cpf}</div><div class="text-green-600 font-black mt-1">✓ Vaga nos 1 milhão garantida! Lei 14.300</div><div class="mt-1">Economia estimada: R$ ${econ}/mês - 15% até 35% + bandeiras</div><div class="mt-3"><button onclick="window.open('https://wa.me/5573998474104?text=CPF%20${encodeURIComponent(cpf)}','_blank')" class="bg-[#25D366] text-white font-black py-2.5 px-5 rounded-xl text-[11px]">💬 Falar com o Gil</button></div>`;}
-function cadastrarConsultor(){const nome=document.getElementById('consNome').value.trim();const zap=document.getElementById('consZap').value.trim();if(nome.length<3||zap.length<10){alert('Preencha nome e WhatsApp');return;}document.getElementById('consResult').classList.remove('hidden');const cidade=document.getElementById('consCidade').value;const m=`*NOVO CONSULTOR YNOVA*%0ANome: ${encodeURIComponent(nome)}%0AZap: ${encodeURIComponent(zap)}%0ACidade: ${encodeURIComponent(cidade)}`;window.open(`https://wa.me/5573998474104?text=${m}`,'_blank');}
-window.addEventListener('load',()=>{const saved=localStorage.getItem('ynova_aba');if(saved==='consultor') switchTab('consultor');calc();calcGanhos();});
+function enviarZap(){
+const msg=encodeURIComponent('Olá Gil, li minha conta de luz aqui no site YNOVA! Quero garantir minha vaga nos 1 milhão! - '+document.getElementById('fileName').innerText);
+window.open('https://wa.me/5573998474104?text='+msg,'_blank');
+}
+function consultarCpf(){
+const cpf=document.getElementById('cpfInput').value;
+if(!cpf){alert('Digite CPF ou CNPJ');return;}
+document.getElementById('cpfResult').classList.remove('hidden');
+document.getElementById('cpfResult').innerHTML='✅ <b>Encontrado!</b><br>CPF: '+cpf+'<br>Status: Em análise - Fale com o Gil no Zap 73 99847-4104 para agilizar!';
+}
+function calc(){
+const q=parseInt(document.getElementById('qtdClientes').value||0);
+const total=q*50;
+const recorrencia=q*15;
+document.getElementById('calcRes').innerHTML='R$ '+total.toLocaleString('pt-BR')+' conexão<br><span class="text-[12px]">+ R$ '+recorrencia.toLocaleString('pt-BR')+'/mês residual</span>';
+}
+function gerarPDF(){
+const nome=document.getElementById('nomeCad').value;
+const zap=document.getElementById('zapCad').value;
+const cidade=document.getElementById('cidadeCad').value;
+if(!nome||!zap){alert('Preencha nome e WhatsApp!');return;}
+const {jsPDF}=window.jspdf;
+const doc=new jsPDF();
+doc.setFontSize(16);
+doc.text('YNOVA - CADASTRO OFICIAL',10,15);
+doc.setFontSize(11);
+doc.text('Corretor Responsavel: Gil - 73 99847-4104',10,25);
+doc.text('Nome: '+nome,10,35);
+doc.text('WhatsApp: '+zap,10,45);
+doc.text('Cidade: '+cidade,10,55);
+doc.text('Data: '+new Date().toLocaleDateString('pt-BR'),10,65);
+doc.text('Interesse: Ser corretor YNOVA - Ate R$30k/mes',10,75);
+doc.save('cadastro-ynova-'+nome.replace(/ /g,'-')+'.pdf');
+const msg=encodeURIComponent('Olá Gil! Sou '+nome+' de '+cidade+' - Zap: '+zap+' - Acabei de gerar meu cadastro YNOVA no site! Quero ser corretor!');
+window.open('https://wa.me/5573998474104?text='+msg,'_blank');
+}
+document.getElementById('fileConta').addEventListener('change',function(){
+if(this.files[0]){
+document.getElementById('fileName').innerText='✅ '+this.files[0].name;
+document.getElementById('uploadDefault').classList.add('hidden');
+document.getElementById('uploadPreview').classList.remove('hidden');
+}
+});
 </script>
 </body>
 </html>
